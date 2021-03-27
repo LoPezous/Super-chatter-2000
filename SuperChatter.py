@@ -13,7 +13,7 @@ from PIL import Image, ImageTk
 
 
 def receive():
-    """Handles receiving of messages."""
+    """receiving messages."""
     while True:
         try:
             msg = client_socket.recv(BUFSIZ).decode("utf8")
@@ -23,7 +23,7 @@ def receive():
 
 
 def send(event=None):  # event is passed by binders.
-    """Handles sending of messages."""
+    """sending messages."""
     msg = my_msg.get()
     my_msg.set("")  # Clears input field.
     client_socket.send(bytes(msg, "utf8"))
@@ -33,7 +33,7 @@ def send(event=None):  # event is passed by binders.
 
 
 def on_closing(event=None):
-    """This function is to be called when the window is closed."""
+    """when the window is closed."""
     my_msg.set("QUITTER")
     send()
 
