@@ -12,7 +12,7 @@ from threading import Thread
 
 clients = {}
 addresses = {}
-HOST = '192.168.1.124' #public ip is 91.168.114.111
+HOST = '' #public ip
 PORT = 80
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
