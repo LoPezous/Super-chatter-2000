@@ -1,6 +1,6 @@
 # Super-chatter-2000
 
-A state of the art instant chat application with cutting-edge user interface ! (or not)
+A state of the art instant chat application with cutting-edge user interface !
 - ***chausette.py*** is the server script
 - ***SuperChatter.py*** is the client script 
 ![authentification](https://user-images.githubusercontent.com/66411147/150566279-a7bca00e-88dd-47b1-b04f-8e99ca068dc6.png)
